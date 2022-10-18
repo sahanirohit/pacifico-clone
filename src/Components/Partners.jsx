@@ -11,7 +11,7 @@ const partnerImage = [
 function Partners() {
   return (
     <section className="relative z-[1] w-full flex items-end justify-end h-full">
-      <div className="container bg-gray-200 mx-auto flex items-center justify-evenly flex-wrap w-full py-8">
+      <div className="bg-gray-200 flex items-center justify-between px-24 flex-wrap w-full py-8">
         {partnerImage.map((item, index) => {
           return (
             <div className="" key={index}>

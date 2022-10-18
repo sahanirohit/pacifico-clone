@@ -11,7 +11,7 @@ function Hero() {
         alt=""
         className="absolute w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-slate-500/70 w-full h-full"></div>
+      <div className="absolute inset-0 bg-slate-600/70 w-full h-full"></div>
       <div className="z-40 absolute px-4 space-y-6 flex w-full h-full flex-col justify-center items-center">
         <h1 className="md:text-5xl text-3xl text-center font-bold text-white">
           Do Not Wait - Launch Your Startup Today!
