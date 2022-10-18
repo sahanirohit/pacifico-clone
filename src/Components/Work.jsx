@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 
 import aboutImage from "../assets/images/about.jpg";
 
@@ -89,4 +89,4 @@ function Work() {
   );
 }
 
-export default Work;
+export default memo(Work);
