@@ -44,14 +44,14 @@ function Team() {
                     className="w-full h-full object-cover rounded-full"
                   />
                 </div>
-                <div className="text-center space-y-3 px-8">
+                <div className="text-center flex flex-col justify-center items-center space-y-3 px-8">
                   <h1 className="text-xl font-bold group-hover:text-white">
                     {item.name}
                   </h1>
                   <i className="group-hover:text-gray-200 text-gray-400">
                     {item.title}
                   </i>
-                  <div className=""></div>
+                  <div className="w-14 h-[3px] bg-gradient-to-l from-purple-400 to bg-purple-900"></div>
                   <p className="text-gray-500 group-hover:text-gray-300">
                     Johnathan is our co-founder and has developed search
                     strategies for a variety of clients from international
