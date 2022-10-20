@@ -1,4 +1,5 @@
 import React from "react";
+import Benefits from "./Components/Benefits";
 import Blog from "./Components/Blog";
 import Cards from "./Components/Cards";
 import Contact from "./Components/Contact";
@@ -18,6 +19,7 @@ function App() {
       <Hero />
       <Partners />
       <Work />
+      <Benefits />
       <Cards />
       <Team />
       <Review />

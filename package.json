@@ -1,5 +1,6 @@
 {
   "name": "pacifico-clone",
+  "homepage": "http://rohitsahani.in/demo/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
