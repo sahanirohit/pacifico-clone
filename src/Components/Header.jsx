@@ -14,7 +14,7 @@ function Header() {
     <header
       className={`${
         nav ? "fixed top-0 bg-white shadow-md" : "absolute"
-      } h-20 w-full z-50 flex items-center transition-all duration-200 justify-between lg:px-24`}>
+      } h-20 w-full z-50 flex items-center transition-all duration-200 justify-between lg:px-24 px-8`}>
       <div className="w-full z-40 lg:w-auto flex items-center justify-between">
         <h1 className="text-3xl font-bold">Pacifico</h1>
         <i

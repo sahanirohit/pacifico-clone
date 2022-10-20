@@ -20,7 +20,7 @@ const blogData = [
 
 function Blog() {
   return (
-    <section className="lg:px-24 bg-[#f2f7f8]">
+    <section className="lg:px-24 px-8 bg-[#f2f7f8]">
       <div className="py-20">
         <div className="">
           <div className="text-center pb-16 flex flex-col items-center justify-center space-y-4">
@@ -32,7 +32,7 @@ function Blog() {
               words.
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
             {blogData.map((item, index) => {
               return (
                 <div className="space-y-4" key={index}>

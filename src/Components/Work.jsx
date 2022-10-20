@@ -4,20 +4,20 @@ import aboutImage from "../assets/images/about.jpg";
 
 function Work() {
   return (
-    <section className="">
-      <div className="py-28 px-24">
+    <section className="lg:px-24">
+      <div className="py-28 px-8">
         <div className="flex items-center justify-center flex-col text-center space-y-4">
-          <h1 className="text-4xl font-semibold">How It Works</h1>
-          <p className="text-lg">
+          <h1 className="md:text-4xl text-3xl font-semibold">How It Works</h1>
+          <p className="md:text-lg font-normal">
             There are many variations of passages of Lorem Ipsum available, but
             the majority <br />
             have suffered alteration, by injected humour, or new randomised
             words.
           </p>
         </div>
-        <div className="grid mt-6 grid-cols-3 place-items-center place-content-center gap-8 w-full">
+        <div className="grid mt-6 sm:grid-cols-2 grid-cols-1 lg:grid-cols-3 place-items-center place-content-center gap-8 w-full">
           <div className="items-center justify-center  flex flex-col space-y-4 text-center">
-            <i class="fa-sharp text-6xl text-sky-400 fa-solid fa-clipboard"></i>
+            <i className="fa-sharp text-6xl text-sky-400 fa-solid fa-clipboard"></i>
             <h2 className="text-2xl font-semibold">Search Oportunities</h2>
             <p className="text-lg">
               Curabitur quam etsum lacus etsumis nulat iaculis ets vitae etsum
@@ -25,7 +25,7 @@ function Work() {
             </p>
           </div>
           <div className="items-center justify-center flex flex-col space-y-4 text-center">
-            <i class="fa-sharp text-6xl text-sky-400 fa-solid fa-chart-simple"></i>
+            <i className="fa-sharp text-6xl text-sky-400 fa-solid fa-chart-simple"></i>
             <h2 className="text-2xl font-semibold">Reach Clients</h2>
             <p className="text-lg">
               Curabitur quam etsum lacus etsumis nulat iaculis ets vitae etsum
@@ -33,7 +33,7 @@ function Work() {
             </p>
           </div>
           <div className="items-center justify-center flex flex-col space-y-4 text-center">
-            <i class="fa-solid text-6xl text-sky-400 fa-piggy-bank"></i>
+            <i className="fa-solid text-6xl text-sky-400 fa-piggy-bank"></i>
             <h2 className="text-2xl font-semibold">Get Rewarded</h2>
             <p className="text-lg">
               Curabitur quam etsum lacus etsumis nulat iaculis ets vitae etsum
@@ -42,8 +42,8 @@ function Work() {
           </div>
         </div>
       </div>
-      <div className="w-full bg-emerald-50">
-        <div className="py-12 grid grid-cols-2 gap-8 px-24">
+      <div className="w-full bg-emerald-50 px-8 lg:px-0">
+        <div className="py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
           <img
             src={aboutImage}
             alt=""
@@ -62,19 +62,19 @@ function Work() {
             </p>
             <div className="">
               <p className="">
-                <i class="fa-sharp fa-solid fa-check"></i> Netsum est, qui ipsum
-                quiaim netsum sequi net tempor.
+                <i className="fa-sharp fa-solid fa-check"></i> Netsum est, qui
+                ipsum quiaim netsum sequi net tempor.
               </p>
               <p className="">
-                <i class="fa-sharp fa-solid fa-check"></i> Etiam tempor ante acu
-                ipsum finibus, atimus urnas.
+                <i className="fa-sharp fa-solid fa-check"></i> Etiam tempor ante
+                acu ipsum finibus, atimus urnas.
               </p>
               <p className="">
-                <i class="fa-sharp fa-solid fa-check"></i> Atimus urnas
+                <i className="fa-sharp fa-solid fa-check"></i> Atimus urnas
                 netsudat, qui ipsum quiaim netsum.
               </p>
               <p className="">
-                <i class="fa-sharp fa-solid fa-check"></i> Etiam tempor ante
+                <i className="fa-sharp fa-solid fa-check"></i> Etiam tempor ante
                 acum ipsum et finibus.
               </p>
             </div>

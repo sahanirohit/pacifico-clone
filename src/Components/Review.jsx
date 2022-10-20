@@ -31,7 +31,10 @@ const reviewImage = [
 function Review() {
   return (
     <section className="lg:px-24">
-      <div className="py-20">
+      <div className="flex items-center justify-center text-center">
+        <h1 className="text-4xl font-bold">Testimonials</h1>
+      </div>
+      <div className="py-16">
         <Swiper
           slidesPerView={1}
           spaceBetween={30}

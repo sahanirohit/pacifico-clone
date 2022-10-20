@@ -21,7 +21,7 @@ const projectImage = [
 
 function Cards() {
   return (
-    <section className="py-20 lg:px-24 bg-purple-800 text-white overflow-hidden w-full">
+    <section className="py-20 px-8 lg:px-24 bg-purple-800 text-white overflow-hidden w-full">
       <div className="space-y-4 pb-16 text-center">
         <h1 className="text-4xl font-bold">Explore Latest Projects</h1>
         <p className="">
@@ -38,6 +38,24 @@ function Cards() {
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,
+          }}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+              spaceBetween: 30,
+            },
+            468: {
+              slidesPerView: 2,
+              spaceBetween: 30,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+            1024: {
+              slidesPerView: 4,
+              spaceBetween: 30,
+            },
           }}
           loop={true}
           pagination={{

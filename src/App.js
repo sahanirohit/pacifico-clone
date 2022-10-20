@@ -1,8 +1,11 @@
 import React from "react";
 import Blog from "./Components/Blog";
 import Cards from "./Components/Cards";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
+import Partners from "./Components/Partners";
 import Review from "./Components/Review";
 import Team from "./Components/Team";
 import Work from "./Components/Work";
@@ -13,12 +16,14 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
+      <Partners />
       <Work />
       <Cards />
       <Team />
       <Review />
       <Blog />
-      <div className="h-[2000px]"></div>
+      <Contact />
+      <Footer />
     </div>
   );
 }

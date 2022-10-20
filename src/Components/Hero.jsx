@@ -1,7 +1,6 @@
 import React, { memo } from "react";
 
 import heroImage from "../assets/images/heroSection.jpg";
-import Partners from "./Partners";
 
 function Hero() {
   return (
@@ -32,7 +31,6 @@ function Hero() {
           </button>
         </div>
       </div>
-      <Partners />
     </section>
   );
 }
